@@ -10,7 +10,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
   return (
     <div className="flex h-screen max-h-screen">
       <Image
-        src="/assets/images/medease-bg.jpg"
+        src="/medease-bg.jpg"
         height={1000}
         width={1000}
         alt="patient"
