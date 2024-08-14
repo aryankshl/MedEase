@@ -9,7 +9,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
   return (
     <div className="flex max-h-screen overflow-hidden">
       <Image
-        src="/medease-bg.jpg"
+        src="/pics/medease-bg.jpg"
         height={1000}
         width={1000}
         alt="patient"
@@ -40,7 +40,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
       </section>
 
       {/* <Image
-        src="/assets/images/appointment-img.png"
+        src="/assets/pics/appointment-img.png"
         height={1500}
         width={1500}
         alt="appointment"
