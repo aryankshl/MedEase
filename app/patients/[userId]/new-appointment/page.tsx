@@ -7,7 +7,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
   const patient = await getPatient(userId);
 
   return (
-    <div className="flex h-screen max-h-screen">
+    <div className="flex max-h-screen overflow-hidden">
       <Image
         src="/assets/images/medease-bg.jpg"
         height={1000}
@@ -35,7 +35,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
             type="create"
           />
 
-          <p className="copyright mt-10 py-12">© 2024 CarePluse</p>
+          <p className="copyright mt-10 py-12">© 2024 MedEase</p>
         </div>
       </section>
 
