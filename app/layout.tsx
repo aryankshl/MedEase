@@ -12,11 +12,11 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "MedEase",
+  title: "MedEase - Patient Appointment System",
   description:
     "A healthcare patient management System designed to streamline patient registration, appointment scheduling, and medical records management for healthcare providers.",
   icons: {
-    icon: "/assets/icons/logo-icon.svg",
+    icon: "/favicon.ico",
   },
 };
 
